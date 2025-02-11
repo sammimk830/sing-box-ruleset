@@ -273,6 +273,13 @@
         "download_detour":"VPN"
       },
       {
+        "tag":"geositeip-Lan",
+        "type":"remote",
+        "format":"binary",
+        "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geositeip-Lan.srs",
+        "download_detour":"VPN"
+      },
+      {
         "tag":"geosite-category-game@!cn",
         "type":"remote",
         "format":"binary",
@@ -298,13 +305,6 @@
         "type":"remote",
         "format":"binary",
         "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geoip-geolocation-!cn.srs",
-        "download_detour":"VPN"
-      },
-      {
-        "tag":"geoip-Lan",
-        "type":"remote",
-        "format":"binary",
-        "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geoip-Lan.srs",
         "download_detour":"VPN"
       },
       {
@@ -347,13 +347,6 @@
         "type":"remote",
         "format":"binary",
         "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/process-blocker-rejectApp@amos.srs",
-        "download_detour":"VPN"
-      },
-      {
-        "tag":"geosite-Lan",
-        "type":"remote",
-        "format":"binary",
-        "url":"https://raw.githubusercontent.com/vstar37/sing-box-ruleset/main/rule/geosite-Lan.srs",
         "download_detour":"VPN"
       }
     ],
