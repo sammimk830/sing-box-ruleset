@@ -160,6 +160,7 @@ class RuleParser:
         geosite_links = data.get('geosite', [])
         geoip_links = data.get('geoip', [])
         process_links = data.get('process', [])
+        geositeip_links = data.get('geositeip', [])
 
         # 定义生成文件的路径
         rule_set_name = os.path.basename(yaml_file).split('.')[0]
@@ -167,6 +168,7 @@ class RuleParser:
         geosite_file = os.path.join(output_directory, f"geosite-{rule_set_name}.json")
         geoip_file = os.path.join(output_directory, f"geoip-{rule_set_name}.json")
         process_file = os.path.join(output_directory, f"process-{rule_set_name}.json")
+        geositeip_file = os.path.join(output_directory, f"geositeip-{rule_set_name}.json")
 
         # 初始化结果存储
         final_results = []
@@ -186,6 +188,12 @@ class RuleParser:
             process_result = self.generate_json_file(process_links, process_file, rule_set_name)
             final_results.append(("process", process_result))
 
+        # 处理 geositeip
+        if geositeip_links:
+            geositeip_result = self.generate_json_file(geositeip_links, geositeip_file, rule_set_name)
+            final_results.append(("geositeip", geositeip_result))
+
+        final_results.replace('ip_cidr6','ip_cidr')
         # 输出最终处理结果
         logging.info(f"{rule_set_name} 规则整理完成:")
         for result_type, result_data in final_results:
@@ -281,6 +289,7 @@ class RuleParser:
             domain_count = len(single_file_stats.get("domain", []))
             domain_suffix_count = len(single_file_stats.get("domain_suffix", []))
             ip_cidr_count = len(single_file_stats.get("ip_cidr", []))
+            ip_cidr6_count = len(single_file_stats.get("ip_cidr6", []))
             process_name_count = len(single_file_stats.get("process_name", []))
             domain_regex_count = len(single_file_stats.get("domain_regex", []))
 
@@ -291,6 +300,7 @@ class RuleParser:
                 "domain_count": domain_count,
                 "domain_suffix_count": domain_suffix_count,
                 "ip_cidr_count": ip_cidr_count,
+                "ip_cidr6_count": ip_cidr6_count,
                 "process_name_count": process_name_count,
                 "domain_regex_count": domain_regex_count
                 }
@@ -321,6 +331,7 @@ class RuleParser:
             "domain": set(),
             "domain_suffix": set(),
             "ip_cidr": set(),
+            "ip_cidr6": set(),
             "domain_regex": set()
         }
 
@@ -377,6 +388,7 @@ class RuleParser:
             "domain_count": len(merged_rules["domain"]),
             "domain_suffix_count": len(merged_rules["domain_suffix"]),
             "ip_cidr_count": len(merged_rules["ip_cidr"]),
+            "ip_cidr6_count": len(merged_rules["ip_cidr6"]),
             "process_name_count": len(merged_rules["process_name"]),
             "domain_regex_count": len(merged_rules["domain_regex"])
         }
