@@ -3,25 +3,25 @@
     "rules": [
         {
             "process_name": [
-                "115Browser",
-                "QQ",
-                "Music",
                 "WeChatAppEx Helper",
-                "BitComet",
-                "Eudb_en_free",
-                "iCloudDrive.exe",
-                "wegame.exe",
-                "StardewModdingAPI",
-                "vidhub",
-                "App Store",
-                "qbittorrent",
-                "幕布 Helper",
-                "cloudd",
-                "TencentMeeting",
                 "infuse",
-                "115Browser Helper",
+                "QQ",
+                "iCloudDrive.exe",
+                "115Browser",
+                "wegame.exe",
+                "TencentMeeting",
+                "cloudd",
+                "Music",
+                "Eudb_en_free",
                 "WeChat",
-                "fdm.exe"
+                "幕布 Helper",
+                "vidhub",
+                "StardewModdingAPI",
+                "fdm.exe",
+                "115Browser Helper",
+                "qbittorrent",
+                "App Store",
+                "BitComet"
             ]
         }
     ]
