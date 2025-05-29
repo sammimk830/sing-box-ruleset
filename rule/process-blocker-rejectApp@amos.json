@@ -3,32 +3,32 @@
     "rules": [
         {
             "process_name": [
-                "Command X",
-                "Mac Mouse Fix",
-                "Apple Juice",
-                "MATLAB",
                 "DevToys",
+                "Command X",
+                "Ice",
+                "ProcessSpy",
+                "Shifty",
+                "TextSniper",
+                "Mac Mouse Fix",
+                "Little Snitch Agent",
+                "BetterDisplay",
                 "Snipaste.exe",
                 "MATLABWebUI (GPU)",
-                "MathWorksService",
-                "Swish",
-                "Little Snitch Agent",
-                "Ice",
-                "Stats",
-                "CodeRunner",
-                "ProcessSpy",
                 "Scroll Reverser",
-                "Find Any File",
+                "Apple Juice",
                 "MATLABWebUl (Renderer)",
-                "Shifty",
                 "KeKa",
                 "Snipaste",
+                "MATLAB",
+                "BLEUnlock",
+                "MathWorksService",
                 "Squirrel",
                 "DevToys Networking",
+                "Find Any File",
                 "Clop",
-                "BetterDisplay",
-                "BLEUnlock",
-                "TextSniper"
+                "CodeRunner",
+                "Swish",
+                "Stats"
             ]
         }
     ]
