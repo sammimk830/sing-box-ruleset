@@ -1,5 +1,5 @@
-2025-07-23 12:37:37,341 - INFO - category-communication@!cn 规则整理完成:
-2025-07-23 12:37:37,341 - INFO - 类型: geosite
+2025-07-24 12:37:52,560 - INFO - category-communication@!cn 规则整理完成:
+2025-07-24 12:37:52,560 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 104
 规则分析:
@@ -9,7 +9,7 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:37,341 - INFO - 类型: geoip
+2025-07-24 12:37:52,560 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 12
 规则分析:
@@ -19,8 +19,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:37,542 - INFO - category-game@cn 规则整理完成:
-2025-07-23 12:37:37,542 - INFO - 类型: geosite
+2025-07-24 12:37:52,816 - INFO - category-game@cn 规则整理完成:
+2025-07-24 12:37:52,816 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 14
 剩余规则总数: 160
 规则分析:
@@ -30,8 +30,8 @@ domain 被过滤掉的条目数量: 14
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:37,610 - INFO - blocker-rejectApp@amos 规则整理完成:
-2025-07-23 12:37:37,610 - INFO - 类型: process
+2025-07-24 12:37:52,899 - INFO - blocker-rejectApp@amos 规则整理完成:
+2025-07-24 12:37:52,899 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 28
 规则分析:
@@ -41,8 +41,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 28
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:37,688 - INFO - geolocation-jp@amos 规则整理完成:
-2025-07-23 12:37:37,688 - INFO - 类型: geoip
+2025-07-24 12:37:52,977 - INFO - geolocation-jp@amos 规则整理完成:
+2025-07-24 12:37:52,977 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 2
 规则分析:
@@ -52,19 +52,19 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:48,931 - INFO - blocker-trash 规则整理完成:
-2025-07-23 12:37:48,931 - INFO - 类型: geosite
-domain 被过滤掉的条目数量: 192681
-剩余规则总数: 246267
+2025-07-24 12:38:04,496 - INFO - blocker-trash 规则整理完成:
+2025-07-24 12:38:04,496 - INFO - 类型: geosite
+domain 被过滤掉的条目数量: 192869
+剩余规则总数: 242686
 规则分析:
-  domain 条目数: 28764
-  domain_suffix 条目数: 217503
+  domain 条目数: 28615
+  domain_suffix 条目数: 214071
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:49,511 - INFO - category-video@!cn 规则整理完成:
-2025-07-23 12:37:49,511 - INFO - 类型: geosite
+2025-07-24 12:38:05,187 - INFO - category-video@!cn 规则整理完成:
+2025-07-24 12:38:05,187 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 1
 剩余规则总数: 463
 规则分析:
@@ -74,7 +74,7 @@ domain 被过滤掉的条目数量: 1
   process_name 条目数: 0
   domain_regex 条目数: 5
 --------------------------------------------------
-2025-07-23 12:37:49,511 - INFO - 类型: geoip
+2025-07-24 12:38:05,187 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 1120
 规则分析:
@@ -84,8 +84,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,020 - INFO - category-download@!cn 规则整理完成:
-2025-07-23 12:37:50,020 - INFO - 类型: geosite
+2025-07-24 12:38:05,857 - INFO - category-download@!cn 规则整理完成:
+2025-07-24 12:38:05,857 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 2
 剩余规则总数: 141
 规则分析:
@@ -95,8 +95,8 @@ domain 被过滤掉的条目数量: 2
   process_name 条目数: 0
   domain_regex 条目数: 1
 --------------------------------------------------
-2025-07-23 12:37:50,094 - INFO - filter-directApp@amos 规则整理完成:
-2025-07-23 12:37:50,094 - INFO - 类型: process
+2025-07-24 12:38:05,930 - INFO - filter-directApp@amos 规则整理完成:
+2025-07-24 12:38:05,930 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 28
 规则分析:
@@ -106,8 +106,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 28
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,186 - INFO - category-media@!cn 规则整理完成:
-2025-07-23 12:37:50,186 - INFO - 类型: geosite
+2025-07-24 12:38:06,069 - INFO - category-media@!cn 规则整理完成:
+2025-07-24 12:38:06,069 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 576
 规则分析:
@@ -117,8 +117,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,246 - INFO - Lan 规则整理完成:
-2025-07-23 12:37:50,246 - INFO - 类型: geositeip
+2025-07-24 12:38:06,138 - INFO - Lan 规则整理完成:
+2025-07-24 12:38:06,138 - INFO - 类型: geositeip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 141
 规则分析:
@@ -128,8 +128,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,364 - INFO - filter-fakeip 规则整理完成:
-2025-07-23 12:37:50,364 - INFO - 类型: geosite
+2025-07-24 12:38:06,279 - INFO - filter-fakeip 规则整理完成:
+2025-07-24 12:38:06,279 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 117
 规则分析:
@@ -139,8 +139,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 29
 --------------------------------------------------
-2025-07-23 12:37:50,433 - INFO - filter-communicationApp@amos 规则整理完成:
-2025-07-23 12:37:50,433 - INFO - 类型: process
+2025-07-24 12:38:06,362 - INFO - filter-communicationApp@amos 规则整理完成:
+2025-07-24 12:38:06,362 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 2
 规则分析:
@@ -150,8 +150,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 2
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,842 - INFO - category-media@cn 规则整理完成:
-2025-07-23 12:37:50,842 - INFO - 类型: geosite
+2025-07-24 12:38:06,727 - INFO - category-media@cn 规则整理完成:
+2025-07-24 12:38:06,727 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 2
 剩余规则总数: 206
 规则分析:
@@ -161,8 +161,8 @@ domain 被过滤掉的条目数量: 2
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:50,941 - INFO - category-nsfw 规则整理完成:
-2025-07-23 12:37:50,942 - INFO - 类型: geosite
+2025-07-24 12:38:06,862 - INFO - category-nsfw 规则整理完成:
+2025-07-24 12:38:06,862 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 6528
 规则分析:
@@ -172,19 +172,19 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 136
 --------------------------------------------------
-2025-07-23 12:37:51,497 - INFO - category-vpn 规则整理完成:
-2025-07-23 12:37:51,498 - INFO - 类型: geosite
+2025-07-24 12:38:07,543 - INFO - category-vpn 规则整理完成:
+2025-07-24 12:38:07,543 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 435
-剩余规则总数: 3220
+剩余规则总数: 3222
 规则分析:
   domain 条目数: 107
-  domain_suffix 条目数: 3108
+  domain_suffix 条目数: 3110
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 5
 --------------------------------------------------
-2025-07-23 12:37:51,640 - INFO - category-game 规则整理完成:
-2025-07-23 12:37:51,640 - INFO - 类型: geosite
+2025-07-24 12:38:07,686 - INFO - category-game 规则整理完成:
+2025-07-24 12:38:07,686 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 547
 规则分析:
@@ -194,7 +194,7 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:51,640 - INFO - 类型: geoip
+2025-07-24 12:38:07,686 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 46
 规则分析:
@@ -204,40 +204,40 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:51,727 - INFO - category-vpn@!cn 规则整理完成:
-2025-07-23 12:37:51,727 - INFO - 类型: geosite
+2025-07-24 12:38:07,828 - INFO - category-vpn@!cn 规则整理完成:
+2025-07-24 12:38:07,828 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 2
-剩余规则总数: 107
+剩余规则总数: 109
 规则分析:
   domain 条目数: 17
-  domain_suffix 条目数: 89
+  domain_suffix 条目数: 91
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 1
 --------------------------------------------------
-2025-07-23 12:37:58,584 - INFO - category-direct 规则整理完成:
-2025-07-23 12:37:58,584 - INFO - 类型: geosite
+2025-07-24 12:38:14,438 - INFO - category-direct 规则整理完成:
+2025-07-24 12:38:14,438 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 109
-剩余规则总数: 122170
+剩余规则总数: 122151
 规则分析:
   domain 条目数: 429
-  domain_suffix 条目数: 121715
+  domain_suffix 条目数: 121696
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 26
 --------------------------------------------------
-2025-07-23 12:37:58,584 - INFO - 类型: geoip
+2025-07-24 12:38:14,438 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
-剩余规则总数: 18378
+剩余规则总数: 18376
 规则分析:
   domain 条目数: 0
   domain_suffix 条目数: 0
-  ip_cidr 条目数: 18378
+  ip_cidr 条目数: 18376
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:59,091 - INFO - geolocation-!cn 规则整理完成:
-2025-07-23 12:37:59,091 - INFO - 类型: geosite
+2025-07-24 12:38:15,038 - INFO - geolocation-!cn 规则整理完成:
+2025-07-24 12:38:15,038 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 461
 剩余规则总数: 26452
 规则分析:
@@ -247,18 +247,18 @@ domain 被过滤掉的条目数量: 461
   process_name 条目数: 0
   domain_regex 条目数: 149
 --------------------------------------------------
-2025-07-23 12:37:59,091 - INFO - 类型: geoip
+2025-07-24 12:38:15,038 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
-剩余规则总数: 18360
+剩余规则总数: 18358
 规则分析:
   domain 条目数: 0
   domain_suffix 条目数: 0
-  ip_cidr 条目数: 18360
+  ip_cidr 条目数: 18358
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:59,157 - INFO - category-media 规则整理完成:
-2025-07-23 12:37:59,157 - INFO - 类型: geosite
+2025-07-24 12:38:15,109 - INFO - category-media 规则整理完成:
+2025-07-24 12:38:15,109 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 1397
 规则分析:
@@ -268,24 +268,24 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2025-07-23 12:37:59,157 - INFO - 处理类别：geosite-category-media
-2025-07-23 12:37:59,177 - INFO - 处理类别：geosite-category-vpn
-2025-07-23 12:37:59,231 - INFO - 处理类别：geoip-category-video
-2025-07-23 12:37:59,231 - INFO - 跳过处理 geoip-category-video，因为没有全体文件
-2025-07-23 12:37:59,231 - INFO - 处理类别：geosite-category-game
-2025-07-23 12:37:59,236 - INFO - 处理类别：geoip-category-game
-2025-07-23 12:37:59,236 - INFO - 跳过处理 geoip-category-game，因为没有 @cn 或 @!cn 文件
-2025-07-23 12:37:59,236 - INFO - 处理类别：geosite-category-video
-2025-07-23 12:37:59,236 - INFO - 跳过处理 geosite-category-video，因为没有全体文件
-2025-07-23 12:37:59,236 - INFO - 处理类别：geosite-category-download
-2025-07-23 12:37:59,236 - INFO - 跳过处理 geosite-category-download，因为没有全体文件
-2025-07-23 12:37:59,236 - INFO - 处理类别：geosite-category-nsfw
-2025-07-23 12:37:59,237 - INFO - 跳过处理 geosite-category-nsfw，因为没有 @cn 或 @!cn 文件
-2025-07-23 12:37:59,237 - INFO - 处理类别：geosite-category-direct
-2025-07-23 12:37:59,245 - INFO - 跳过处理 geosite-category-direct，因为没有 @cn 或 @!cn 文件
-2025-07-23 12:37:59,247 - INFO - 处理类别：geosite-category-communication
-2025-07-23 12:37:59,247 - INFO - 跳过处理 geosite-category-communication，因为没有全体文件
-2025-07-23 12:37:59,247 - INFO - 处理类别：geoip-category-communication
-2025-07-23 12:37:59,247 - INFO - 跳过处理 geoip-category-communication，因为没有全体文件
-2025-07-23 12:37:59,247 - INFO - 处理类别：geoip-category-direct
-2025-07-23 12:37:59,249 - INFO - 跳过处理 geoip-category-direct，因为没有 @cn 或 @!cn 文件
+2025-07-24 12:38:15,109 - INFO - 处理类别：geosite-category-media
+2025-07-24 12:38:15,129 - INFO - 处理类别：geosite-category-vpn
+2025-07-24 12:38:15,162 - INFO - 处理类别：geoip-category-video
+2025-07-24 12:38:15,162 - INFO - 跳过处理 geoip-category-video，因为没有全体文件
+2025-07-24 12:38:15,162 - INFO - 处理类别：geosite-category-game
+2025-07-24 12:38:15,166 - INFO - 处理类别：geoip-category-game
+2025-07-24 12:38:15,166 - INFO - 跳过处理 geoip-category-game，因为没有 @cn 或 @!cn 文件
+2025-07-24 12:38:15,166 - INFO - 处理类别：geosite-category-video
+2025-07-24 12:38:15,166 - INFO - 跳过处理 geosite-category-video，因为没有全体文件
+2025-07-24 12:38:15,166 - INFO - 处理类别：geosite-category-download
+2025-07-24 12:38:15,166 - INFO - 跳过处理 geosite-category-download，因为没有全体文件
+2025-07-24 12:38:15,166 - INFO - 处理类别：geosite-category-nsfw
+2025-07-24 12:38:15,167 - INFO - 跳过处理 geosite-category-nsfw，因为没有 @cn 或 @!cn 文件
+2025-07-24 12:38:15,167 - INFO - 处理类别：geosite-category-direct
+2025-07-24 12:38:15,175 - INFO - 跳过处理 geosite-category-direct，因为没有 @cn 或 @!cn 文件
+2025-07-24 12:38:15,177 - INFO - 处理类别：geosite-category-communication
+2025-07-24 12:38:15,177 - INFO - 跳过处理 geosite-category-communication，因为没有全体文件
+2025-07-24 12:38:15,177 - INFO - 处理类别：geoip-category-communication
+2025-07-24 12:38:15,177 - INFO - 跳过处理 geoip-category-communication，因为没有全体文件
+2025-07-24 12:38:15,177 - INFO - 处理类别：geoip-category-direct
+2025-07-24 12:38:15,178 - INFO - 跳过处理 geoip-category-direct，因为没有 @cn 或 @!cn 文件
