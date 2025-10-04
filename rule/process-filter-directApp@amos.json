@@ -1,39 +1,4 @@
 {
     "version": 1,
-    "rules": [
-        {
-            "process_name": [
-                "fdm.exe",
-                "TencentMeeting",
-                "ToDesk_Service",
-                "WeChatAppEx Helper",
-                "Eudb_en_free",
-                "QQ",
-                "Music",
-                "Thunder",
-                "wegame.exe",
-                "vidhub",
-                "幕布 Helper",
-                "frpc",
-                "iCloudDrive.exe",
-                "APTV",
-                "115Browser",
-                "115Browser Helper",
-                "cloudd",
-                "ThunderVIP",
-                "115chrome.exe",
-                "WeChat",
-                "qbittorrent.exe",
-                "App Store",
-                "qbittorrent",
-                "hydra-python-rpc.exe",
-                "BaiduNetdisk_mac",
-                "Transmission",
-                "infuse",
-                "fdm",
-                "BitComet",
-                "aria2c.exe"
-            ]
-        }
-    ]
+    "rules": []
 }
