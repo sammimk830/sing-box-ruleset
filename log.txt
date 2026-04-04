@@ -1,17 +1,17 @@
-2026-04-03 12:57:55,140 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json
-2026-04-03 12:57:55,143 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:55,147 - INFO - geolocation-!cn 规则整理完成:
-2026-04-03 12:57:55,147 - INFO - 类型: geosite
+2026-04-04 12:50:01,328 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json
+2026-04-04 12:50:01,566 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:01,570 - INFO - geolocation-!cn 规则整理完成:
+2026-04-04 12:50:01,570 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 18
-剩余规则总数: 22109
+剩余规则总数: 22151
 规则分析:
   domain 条目数: 92
-  domain_suffix 条目数: 21865
+  domain_suffix 条目数: 21907
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 152
 --------------------------------------------------
-2026-04-03 12:57:55,147 - INFO - 类型: geoip
+2026-04-04 12:50:01,570 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 8615
 规则分析:
@@ -21,19 +21,19 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,240 - INFO - category-media 规则整理完成:
-2026-04-03 12:57:55,240 - INFO - 类型: geosite
+2026-04-04 12:50:01,658 - INFO - category-media 规则整理完成:
+2026-04-04 12:50:01,658 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
-剩余规则总数: 1406
+剩余规则总数: 1446
 规则分析:
   domain 条目数: 24
-  domain_suffix 条目数: 1382
+  domain_suffix 条目数: 1422
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,380 - INFO - filter-fakeip 规则整理完成:
-2026-04-03 12:57:55,380 - INFO - 类型: geosite
+2026-04-04 12:50:01,852 - INFO - filter-fakeip 规则整理完成:
+2026-04-04 12:50:01,852 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 88
 规则分析:
@@ -43,8 +43,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 6
 --------------------------------------------------
-2026-04-03 12:57:55,423 - INFO - category-media@cn 规则整理完成:
-2026-04-03 12:57:55,423 - INFO - 类型: geosite
+2026-04-04 12:50:01,926 - INFO - category-media@cn 规则整理完成:
+2026-04-04 12:50:01,926 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 312
 规则分析:
@@ -54,10 +54,10 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,492 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/offlineApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/offlineApp-filter.json
-2026-04-03 12:57:55,493 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:55,493 - INFO - blocker-rejectApp@amos 规则整理完成:
-2026-04-03 12:57:55,493 - INFO - 类型: process
+2026-04-04 12:50:01,978 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/offlineApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/offlineApp-filter.json
+2026-04-04 12:50:01,979 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:01,979 - INFO - blocker-rejectApp@amos 规则整理完成:
+2026-04-04 12:50:01,979 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 0
 规则分析:
@@ -67,8 +67,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,625 - INFO - category-media@!cn 规则整理完成:
-2026-04-03 12:57:55,625 - INFO - 类型: geosite
+2026-04-04 12:50:02,126 - INFO - category-media@!cn 规则整理完成:
+2026-04-04 12:50:02,126 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 594
 规则分析:
@@ -78,8 +78,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,681 - INFO - Lan 规则整理完成:
-2026-04-03 12:57:55,681 - INFO - 类型: geositeip
+2026-04-04 12:50:02,190 - INFO - Lan 规则整理完成:
+2026-04-04 12:50:02,190 - INFO - 类型: geositeip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 139
 规则分析:
@@ -89,10 +89,10 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:55,722 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json
-2026-04-03 12:57:56,001 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:56,003 - INFO - category-vpn@!cn 规则整理完成:
-2026-04-03 12:57:56,003 - INFO - 类型: geosite
+2026-04-04 12:50:02,395 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json
+2026-04-04 12:50:02,566 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:02,567 - INFO - category-vpn@!cn 规则整理完成:
+2026-04-04 12:50:02,567 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 182
 规则分析:
@@ -102,10 +102,10 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 1
 --------------------------------------------------
-2026-04-03 12:57:56,104 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/directApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/directApp-filter.json
-2026-04-03 12:57:56,105 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:56,105 - INFO - filter-directApp@amos 规则整理完成:
-2026-04-03 12:57:56,105 - INFO - 类型: process
+2026-04-04 12:50:02,622 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/directApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/directApp-filter.json
+2026-04-04 12:50:02,623 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:02,623 - INFO - filter-directApp@amos 规则整理完成:
+2026-04-04 12:50:02,623 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 0
 规则分析:
@@ -115,10 +115,10 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:56,140 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json
-2026-04-03 12:57:56,547 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:56,565 - INFO - category-vpn 规则整理完成:
-2026-04-03 12:57:56,565 - INFO - 类型: geosite
+2026-04-04 12:50:02,958 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-vpn@amos.json
+2026-04-04 12:50:03,055 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:03,070 - INFO - category-vpn 规则整理完成:
+2026-04-04 12:50:03,070 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 324
 剩余规则总数: 3262
 规则分析:
@@ -128,10 +128,10 @@ domain 被过滤掉的条目数量: 324
   process_name 条目数: 0
   domain_regex 条目数: 4
 --------------------------------------------------
-2026-04-03 12:57:56,611 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-jp@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-jp@amos.json
-2026-04-03 12:57:56,612 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:56,612 - INFO - geolocation-jp@amos 规则整理完成:
-2026-04-03 12:57:56,612 - INFO - 类型: geoip
+2026-04-04 12:50:03,121 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-jp@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-jp@amos.json
+2026-04-04 12:50:03,121 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:03,122 - INFO - geolocation-jp@amos 规则整理完成:
+2026-04-04 12:50:03,122 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 0
 规则分析:
@@ -141,13 +141,13 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:57,138 - ERROR - 解析 https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml 时出错：404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml
-2026-04-03 12:57:57,140 - ERROR - 解析链接 https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml 出现错误: 'pattern'
-2026-04-03 12:57:57,182 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-download@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-download@amos.json
-2026-04-03 12:57:57,262 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:57,262 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:57,263 - INFO - category-download@!cn 规则整理完成:
-2026-04-03 12:57:57,263 - INFO - 类型: geosite
+2026-04-04 12:50:03,701 - ERROR - 解析 https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml 时出错：404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml
+2026-04-04 12:50:03,703 - ERROR - 解析链接 https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/GoogleDrive.yaml 出现错误: 'pattern'
+2026-04-04 12:50:03,755 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-download@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-download@amos.json
+2026-04-04 12:50:03,756 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:03,756 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:03,757 - INFO - category-download@!cn 规则整理完成:
+2026-04-04 12:50:03,757 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 1
 剩余规则总数: 120
 规则分析:
@@ -157,8 +157,8 @@ domain 被过滤掉的条目数量: 1
   process_name 条目数: 0
   domain_regex 条目数: 1
 --------------------------------------------------
-2026-04-03 12:57:57,412 - INFO - category-nsfw 规则整理完成:
-2026-04-03 12:57:57,412 - INFO - 类型: geosite
+2026-04-04 12:50:03,913 - INFO - category-nsfw 规则整理完成:
+2026-04-04 12:50:03,913 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 2
 剩余规则总数: 6633
 规则分析:
@@ -168,8 +168,8 @@ domain 被过滤掉的条目数量: 2
   process_name 条目数: 0
   domain_regex 条目数: 140
 --------------------------------------------------
-2026-04-03 12:57:57,634 - INFO - category-game 规则整理完成:
-2026-04-03 12:57:57,634 - INFO - 类型: geosite
+2026-04-04 12:50:04,083 - INFO - category-game 规则整理完成:
+2026-04-04 12:50:04,083 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 547
 规则分析:
@@ -179,7 +179,7 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:57,634 - INFO - 类型: geoip
+2026-04-04 12:50:04,083 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 46
 规则分析:
@@ -189,10 +189,10 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:58,268 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/communicationApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/communicationApp-filter.json
-2026-04-03 12:57:58,269 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:57:58,270 - INFO - filter-communicationApp@amos 规则整理完成:
-2026-04-03 12:57:58,270 - INFO - 类型: process
+2026-04-04 12:50:04,627 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/communicationApp-filter.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/communicationApp-filter.json
+2026-04-04 12:50:04,628 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:04,628 - INFO - filter-communicationApp@amos 规则整理完成:
+2026-04-04 12:50:04,628 - INFO - 类型: process
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 0
 规则分析:
@@ -202,8 +202,8 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:58,579 - INFO - category-game@cn 规则整理完成:
-2026-04-03 12:57:58,579 - INFO - 类型: geosite
+2026-04-04 12:50:04,943 - INFO - category-game@cn 规则整理完成:
+2026-04-04 12:50:04,943 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 5
 剩余规则总数: 289
 规则分析:
@@ -213,8 +213,8 @@ domain 被过滤掉的条目数量: 5
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:59,484 - INFO - category-video@!cn 规则整理完成:
-2026-04-03 12:57:59,484 - INFO - 类型: geosite
+2026-04-04 12:50:05,864 - INFO - category-video@!cn 规则整理完成:
+2026-04-04 12:50:05,864 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 3
 剩余规则总数: 511
 规则分析:
@@ -224,7 +224,7 @@ domain 被过滤掉的条目数量: 3
   process_name 条目数: 0
   domain_regex 条目数: 5
 --------------------------------------------------
-2026-04-03 12:57:59,484 - INFO - 类型: geoip
+2026-04-04 12:50:05,864 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 1119
 规则分析:
@@ -234,21 +234,21 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:57:59,528 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-blocklist@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-blocklist@amos.json
-2026-04-03 12:58:03,719 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:58:06,818 - INFO - blocker-trash 规则整理完成:
-2026-04-03 12:58:06,818 - INFO - 类型: geosite
+2026-04-04 12:50:09,930 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-blocklist@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-blocklist@amos.json
+2026-04-04 12:50:09,985 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:12,552 - INFO - blocker-trash 规则整理完成:
+2026-04-04 12:50:12,552 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 79405
-剩余规则总数: 229142
+剩余规则总数: 229376
 规则分析:
   domain 条目数: 12573
-  domain_suffix 条目数: 216569
+  domain_suffix 条目数: 216803
   ip_cidr 条目数: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:58:08,230 - INFO - category-communication@!cn 规则整理完成:
-2026-04-03 12:58:08,230 - INFO - 类型: geosite
+2026-04-04 12:50:13,361 - INFO - category-communication@!cn 规则整理完成:
+2026-04-04 12:50:13,361 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 105
 规则分析:
@@ -258,7 +258,7 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:58:08,230 - INFO - 类型: geoip
+2026-04-04 12:50:13,361 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 12
 规则分析:
@@ -268,15 +268,15 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:58:08,671 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-direct@amos.json
-2026-04-03 12:58:13,437 - ERROR - 下载 https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs 时出错: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs
-2026-04-03 12:58:13,438 - ERROR - 下载 .srs 文件失败: https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs
-2026-04-03 12:58:13,541 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:58:13,548 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:58:14,198 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json
-2026-04-03 12:58:14,509 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
-2026-04-03 12:58:14,514 - INFO - category-direct 规则整理完成:
-2026-04-03 12:58:14,514 - INFO - 类型: geosite
+2026-04-04 12:50:13,769 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geosite-direct@amos.json
+2026-04-04 12:50:18,576 - ERROR - 下载 https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs 时出错: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs
+2026-04-04 12:50:18,577 - ERROR - 下载 .srs 文件失败: https://raw.githubusercontent.com/SagerNet/sing-geosite/rule-set/geosite-tencent@cn.srs
+2026-04-04 12:50:18,659 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:18,666 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:19,273 - ERROR - 下载 JSON 文件失败: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json, 错误: 404 Client Error: Not Found for url: https://raw.githubusercontent.com/vstar37/sing-box-ruleset/refs/heads/main/self-host/geoip-direct@amos.json
+2026-04-04 12:50:19,575 - ERROR - 解析 JSON 数据时出错: 'NoneType' object has no attribute 'get'
+2026-04-04 12:50:19,579 - INFO - category-direct 规则整理完成:
+2026-04-04 12:50:19,579 - INFO - 类型: geosite
 domain 被过滤掉的条目数量: 174
 剩余规则总数: 120991
 规则分析:
@@ -286,7 +286,7 @@ domain 被过滤掉的条目数量: 174
   process_name 条目数: 0
   domain_regex 条目数: 12
 --------------------------------------------------
-2026-04-03 12:58:14,514 - INFO - 类型: geoip
+2026-04-04 12:50:19,579 - INFO - 类型: geoip
 domain 被过滤掉的条目数量: 0
 剩余规则总数: 8633
 规则分析:
@@ -296,24 +296,24 @@ domain 被过滤掉的条目数量: 0
   process_name 条目数: 0
   domain_regex 条目数: 0
 --------------------------------------------------
-2026-04-03 12:58:14,515 - INFO - 处理类别：geoip-category-game
-2026-04-03 12:58:14,515 - INFO - 跳过处理 geoip-category-game，因为没有 @cn 或 @!cn 文件
-2026-04-03 12:58:14,515 - INFO - 处理类别：geoip-category-communication
-2026-04-03 12:58:14,515 - INFO - 跳过处理 geoip-category-communication，因为没有全体文件
-2026-04-03 12:58:14,515 - INFO - 处理类别：geoip-category-direct
-2026-04-03 12:58:14,516 - INFO - 跳过处理 geoip-category-direct，因为没有 @cn 或 @!cn 文件
-2026-04-03 12:58:14,516 - INFO - 处理类别：geosite-category-game
-2026-04-03 12:58:14,522 - INFO - 处理类别：geosite-category-media
-2026-04-03 12:58:14,541 - INFO - 处理类别：geosite-category-download
-2026-04-03 12:58:14,541 - INFO - 跳过处理 geosite-category-download，因为没有全体文件
-2026-04-03 12:58:14,541 - INFO - 处理类别：geosite-category-video
-2026-04-03 12:58:14,541 - INFO - 跳过处理 geosite-category-video，因为没有全体文件
-2026-04-03 12:58:14,541 - INFO - 处理类别：geosite-category-vpn
-2026-04-03 12:58:14,573 - INFO - 处理类别：geosite-category-communication
-2026-04-03 12:58:14,573 - INFO - 跳过处理 geosite-category-communication，因为没有全体文件
-2026-04-03 12:58:14,573 - INFO - 处理类别：geosite-category-direct
-2026-04-03 12:58:14,583 - INFO - 跳过处理 geosite-category-direct，因为没有 @cn 或 @!cn 文件
-2026-04-03 12:58:14,585 - INFO - 处理类别：geoip-category-video
-2026-04-03 12:58:14,585 - INFO - 跳过处理 geoip-category-video，因为没有全体文件
-2026-04-03 12:58:14,585 - INFO - 处理类别：geosite-category-nsfw
-2026-04-03 12:58:14,585 - INFO - 跳过处理 geosite-category-nsfw，因为没有 @cn 或 @!cn 文件
+2026-04-04 12:50:19,580 - INFO - 处理类别：geoip-category-game
+2026-04-04 12:50:19,580 - INFO - 跳过处理 geoip-category-game，因为没有 @cn 或 @!cn 文件
+2026-04-04 12:50:19,580 - INFO - 处理类别：geoip-category-communication
+2026-04-04 12:50:19,580 - INFO - 跳过处理 geoip-category-communication，因为没有全体文件
+2026-04-04 12:50:19,580 - INFO - 处理类别：geoip-category-direct
+2026-04-04 12:50:19,581 - INFO - 跳过处理 geoip-category-direct，因为没有 @cn 或 @!cn 文件
+2026-04-04 12:50:19,581 - INFO - 处理类别：geosite-category-game
+2026-04-04 12:50:19,586 - INFO - 处理类别：geosite-category-media
+2026-04-04 12:50:19,604 - INFO - 处理类别：geosite-category-download
+2026-04-04 12:50:19,604 - INFO - 跳过处理 geosite-category-download，因为没有全体文件
+2026-04-04 12:50:19,604 - INFO - 处理类别：geosite-category-video
+2026-04-04 12:50:19,604 - INFO - 跳过处理 geosite-category-video，因为没有全体文件
+2026-04-04 12:50:19,604 - INFO - 处理类别：geosite-category-vpn
+2026-04-04 12:50:19,631 - INFO - 处理类别：geosite-category-communication
+2026-04-04 12:50:19,631 - INFO - 跳过处理 geosite-category-communication，因为没有全体文件
+2026-04-04 12:50:19,631 - INFO - 处理类别：geosite-category-direct
+2026-04-04 12:50:19,640 - INFO - 跳过处理 geosite-category-direct，因为没有 @cn 或 @!cn 文件
+2026-04-04 12:50:19,641 - INFO - 处理类别：geoip-category-video
+2026-04-04 12:50:19,641 - INFO - 跳过处理 geoip-category-video，因为没有全体文件
+2026-04-04 12:50:19,642 - INFO - 处理类别：geosite-category-nsfw
+2026-04-04 12:50:19,642 - INFO - 跳过处理 geosite-category-nsfw，因为没有 @cn 或 @!cn 文件
